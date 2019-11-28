@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Burger</title>
+    <meta http-equiv="content-type" content="text/html; charset = utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <script src="bk.js"></script>
+    <div>Size:</div>
+    <input
+      type="radio"
+      id="small"
+      value="small"
+      class="values"
+      name="size"
+    /><label for="small">Small</label>
+    <input
+      type="radio"
+      id="large"
+      value="large"
+      class="values"
+      name="size"
+    /><label for="large">Large</label>
+    <div>Add:</div>
+    <input type="checkbox" id="cheese" value="cheese" class="values" /><label
+      for="cheese"
+      >Cheese</label
+    >
+    <input type="checkbox" id="salad" value="salad" class="values" /><label
+      for="salad"
+      >Salad</label
+    >
+    <input type="checkbox" id="potato" value="potato" class="values" /><label
+      for="potato"
+      >Potato</label
+    >
+    <input type="checkbox" id="flavor" value="flavor" class="values" /><label
+      for="flavor"
+      >Flavor</label
+    >
+    <input type="checkbox" id="mayo" value="mayo" class="values" /><label
+      for="mayo"
+      >Mayo</label
+    >
+
+    <div id="result">
+      Сумма:
+      <div id="sum"></div>
+      Калорийность:
+      <div id="total"></div>
+    </div>
+    <button onclick="getChecked()">Посчитать</button>
+  </body>
+</html>
