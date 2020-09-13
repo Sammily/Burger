@@ -7,49 +7,54 @@
 
   <body>
     <script src="bk.js"></script>
-    <div>Size:</div>
+    <div class="header">
+      <div class="choose">
+    
+    <div><h2>Size:</h2></div>
     <input
       type="radio"
       id="small"
       value="small"
       class="values"
       name="size"
-    /><label for="small">Small</label>
+    /><label for="small"> Small</label>
     <input
       type="radio"
       id="large"
       value="large"
       class="values"
       name="size"
-    /><label for="large">Large</label>
-    <div>Add:</div>
+    /><label for="large"> Large</label>
+    <div><h2>Add:</h2></div>
     <input type="checkbox" id="cheese" value="cheese" class="values" /><label
       for="cheese"
-      >Cheese</label
+      > Cheese</label
     >
     <input type="checkbox" id="salad" value="salad" class="values" /><label
       for="salad"
-      >Salad</label
+      > Salad</label
     >
     <input type="checkbox" id="potato" value="potato" class="values" /><label
       for="potato"
-      >Potato</label
+      > Potato</label
     >
     <input type="checkbox" id="flavor" value="flavor" class="values" /><label
       for="flavor"
-      >Flavor</label
+      > Flavor</label
     >
     <input type="checkbox" id="mayo" value="mayo" class="values" /><label
       for="mayo"
-      >Mayo</label
+      > Mayo</label
     >
 
     <div id="result">
-      Сумма:
-      <div id="sum"></div>
-      Калорийность:
-      <div id="total"></div>
+      <h1>Сумма: <div id="sum"></div></h1>
+      <h1>Калорийность: <div id="total"></div></h1>
     </div>
+
+
     <button onclick="getChecked()">Посчитать</button>
+  </div>
+  </div>
   </body>
 </html>

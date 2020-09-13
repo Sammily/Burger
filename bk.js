@@ -1,4 +1,4 @@
-/*class Burger {
+class Burger {
   constructor(size, fill) {
     this.size = size;
     this.fill = fill;
@@ -59,8 +59,8 @@ go.calcCal();
 console.log("size - " + go.size);
 console.log("sum - " + go.sum);
 console.log("cal - " + go.cal);
-*/
 
+/*
 function getChecked() {
   var values = document.getElementsByClassName("values");
   var arrOfValues = [];
@@ -129,3 +129,4 @@ function getChecked() {
 
   //return arrOfValues;
 }
+*/
