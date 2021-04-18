@@ -1,3 +1,11 @@
+:hamburger: Страничка где можно выбрать ингредиенты для гамбургера, рассчитать итоговую стоимость и калорийность блюда. 
+
+![Burger app](https://user-images.githubusercontent.com/6870477/115153240-8bb23400-a07d-11eb-88ef-7ba411061709.png)
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
